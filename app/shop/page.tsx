@@ -1,7 +1,6 @@
 import Navbar from "../components/Navbar";
 
 import ShopHero from "./components/ShopHero";
-import SearchBar from "./components/SearchBar";
 import CategoryFilter from "./components/CategoryFilter";
 import SortProducts from "./components/SortProducts";
 import ProductGrid from "./components/ProductGrid";
@@ -15,8 +14,6 @@ export default function ShopPage() {
       <ShopHero />
 
       <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-10 py-20">
-        <SearchBar />
-
         <CategoryFilter />
 
         <SortProducts />
@@ -25,8 +22,6 @@ export default function ShopPage() {
 
         <Pagination />
       </div>
-
-      
     </>
   );
 }
